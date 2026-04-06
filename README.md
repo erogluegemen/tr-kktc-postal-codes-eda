@@ -46,6 +46,38 @@ The dataset contains 74,342 records covering all provinces of Turkey and Norther
 - **40% of neighbourhood names** use no standard administrative suffix (MAH/KOY/BELDE), mostly rural and KKTC entries.
 - All postal code prefixes correctly encode the province plate number (100% match after zero-padding).
 
+## Sample Figures
+
+### Geographic Density – Hexbin Map
+![Hexbin Density](figures/fig18_hexbin_density.png)
+
+### Geographic Density – KDE Contour
+![KDE Density](figures/fig19_kde_density.png)
+
+### Shared Centroid vs Unique Coordinates
+![Shared vs Unique Coords](figures/fig25_shared_vs_unique_coords.png)
+
+### Neighbourhood Type Distribution
+![Neighbourhood Type Pie](figures/fig15_mah_type_pie.png)
+
+### Neighbourhood Type by Province (Top 20)
+![Neighbourhood Type by Province](figures/fig14_mah_type_by_province.png)
+
+### Urban Ratio by Province
+![Urban Ratio](figures/fig16_urban_ratio_by_province.png)
+
+### Word Cloud of Neighbourhood Names
+![Word Cloud](figures/fig22_mahalle_wordcloud.png)
+
+### Top Provinces by Record Count
+![Top Provinces](figures/fig05_top_provinces.png)
+
+### Correlation Heatmap
+![Correlation](figures/fig10_correlation_heatmap.png)
+
+### Missing Data per Column
+![Missing Data](figures/fig01_missing_data.png)
+
 ## Running the analysis
 
 ```bash
